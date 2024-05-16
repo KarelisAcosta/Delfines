@@ -1,0 +1,26 @@
+.fondo,
+.mar2 {
+  animation: fondo 5s linear infinite;
+}
+
+@keyframes fondo {
+  0% {
+    filter: hue-rotate(20deg);
+  }
+  50% {
+    filter: hue-rotate(180deg);
+  }
+}
+
+.nubes {
+  animation: nubes 20s linear infinite;
+}
+
+@keyframes nubes {
+  0% {
+    transform: translate(-500px);
+  }
+  100% {
+    transform: translate(600px);
+  }
+}

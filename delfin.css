@@ -1,0 +1,36 @@
+.delfin {
+  width: 50%;
+  height: 53%;
+  position: absolute;
+  top: 49%;
+  left: 21%;
+  animation: delfin 8s linear infinite;
+  transform-origin: 50% 100%;
+}
+
+@keyframes delfin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.dolfin {
+  width: 40%;
+  height: 42%;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  animation: dolfin 6s linear 1s infinite;
+  transform-origin: 50% 100%;
+}
+@keyframes dolfin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

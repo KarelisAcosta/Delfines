@@ -1,0 +1,34 @@
+header {
+  background-color: blueviolet;
+  height: 40px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  height: 400px;
+  width: 600px;
+  overflow: hidden;
+}
+.cuadro {
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  overflow: hidden;
+}
+
+footer {
+  background-color: blueviolet;
+  height: 40px;
+}
